@@ -1,3 +1,5 @@
+package ThreadExample1;
+
 public class WorkThread extends Thread{
     public boolean work = true;
 
