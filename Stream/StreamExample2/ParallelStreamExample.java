@@ -5,12 +5,13 @@ import java.util.stream.*;
 
 public class ParallelStreamExample {
     public static void main(String[] args) {
+
         List<String> list = new ArrayList<>();
-        list.add("Apple");
-        list.add("Banana");
-        list.add("Cherry");
-        list.add("Desert");
-        list.add("Elderberry");
+        list.add("홍길동");
+        list.add("신용권");
+        list.add("감자바");
+        list.add("람다식");
+        list.add("박병렬");
 
         Stream<String> parallelStream = list.parallelStream();
         parallelStream.forEach(name -> {
