@@ -9,6 +9,10 @@ public class Student {
         this.name = name;
     }
 
+    public Student(String string, String string2, int i) {
+        //TODO Auto-generated constructor stub
+    }
+
     @Override
     public int hashCode() {
         return studentNum;
